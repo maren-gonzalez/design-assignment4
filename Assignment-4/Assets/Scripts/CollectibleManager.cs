@@ -20,7 +20,7 @@ public class CollectibleManager : MonoBehaviour
     {
         pumpkinText.text = "Pumpkin count: " + pumpkinCount.ToString();
         
-        if(pumpkinCount >= 1)
+        if(pumpkinCount >= 5)
         {
             pumpkinText.text = "You're safe!";
         }
