@@ -33,5 +33,6 @@ public class CameraController : MonoBehaviour
     {
         Destroy(other.gameObject);
         cm.pumpkinCount++;
+        
     }
 }
